@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="55e9368d-9f91-4f94-a741-7c8b3183a943" name="SamyJewelryServer" url="https://jewelry.egythoth.com">
+        <fileTransfer host="192.168.1.25" port="22" rootFolder="/var/www/SamyJewelry" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
